@@ -3,7 +3,6 @@ Zadania do nauki podstaw HMTL, CSS i JS.
 
 Sklonuj to repozytorium na swój komputer. Dla kolejnych "dużych" sekcji (1,2,3...) proponuję utworzyć osobne gałęzie, a poszczególne zadania umieszczać w osobnych commitach o tytułach zawierających numer zadania (np. 1-f).
 
-
 1. Podstawowa składnia HTML
 
     a. Utwórz pusty dokument HTML. Pamiętaj o podstawowych tagach - `!DOCTYPE`, `html`, `head`, `body`
