@@ -36,3 +36,23 @@ Sklonuj to repozytorium na swój komputer. Dla kolejnych "dużych" sekcji (1,2,3
     n. Dodaj nową podstronę `about.html`. Niech na stronie głównej znajdzie się kolejny link (obok wcześniej dodanych )
 
     o. Niech utworzona strona zawiera nagłówek, obrazek, akapit opisujący zawartość obrazka oraz link kierujący do strony głównej
+
+2. Podstawy CSS
+
+    a. Zmień wygląd (czcionka, rozmiar, kolor, margines) głównego nagłówka z wykorzystaniem tagu `style` w głównym pliku `index.html`
+
+    b. Dodaj w podobny sposób style, według własnego projektu do podtytułu
+
+    c. Spraw, by akapity miały różne kolory, oraz dodaj ramkę do całej sekcji `main`. Niech ramka będzie zaokrąglona
+
+    d. Spraw, by hiperłącza były umieszczone jedno nad drugim. Dodaj obramowania oraz tło do hiperłączy by przypominały przyciski. Niech hiperłącza zmieniają kolor po najechaniu na nie kursorem
+
+    e. Niech listy będą umieszczone obok siebie, na środku ekranu. Ostyluj w dowolny sposób elementy listy
+
+    f. Ostyluj przycisk, tak by przypominał hiperłącza powyżej. Dodaj style do pola tekstowego według własnego uznania
+
+    g. Dodaj tag `style` do drugiego utworzonego wcześniej dokumentu. Spraw by obrazek wypełniał całą szerokość strony. Dodaj style do paragrafu oraz przycisku
+
+    h. Do każdego elementu obu dokumentów dodaj atrybut `class`
+
+    i. Utwórz pliki `index.css` oraz `about.css`. Dołącz je do odpowiednich plików `html` przy pomocy tagu `link`. Usuń dodane style z plików `html` i przenieś je do plików `css`. Tym razem wykorzystaj dodane klasy jako selektory. Staraj się nie dublować kodu. Spróbuj wykorzystać metodologię BEM - w razie potrzeby zmień dodane wcześniej klasy.
