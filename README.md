@@ -45,7 +45,7 @@ Sklonuj to repozytorium na swój komputer. Dla kolejnych "dużych" sekcji (1,2,3
 
     c. Spraw, by akapity miały różne kolory, oraz dodaj ramkę do całej sekcji `main`. Niech ramka będzie zaokrąglona
 
-    d. Spraw, by hiperłącza były umieszczone jedno nad drugim. Dodaj obramowania oraz tło do hiperłączy by przypominały przyciski. Niech hiperłącza zmieniają kolor po najechaniu na nie kursorem
+    d. Kontener `div` w którym znajdują się hiperłącza, zmień na semantyczny tag `nav`. Spraw, by hiperłącza były umieszczone jedno nad drugim. Dodaj obramowania oraz tło do hiperłączy by przypominały przyciski. Niech hiperłącza zmieniają kolor po najechaniu na nie kursorem
 
     e. Niech listy będą umieszczone obok siebie, na środku ekranu. Ostyluj w dowolny sposób elementy listy
 
