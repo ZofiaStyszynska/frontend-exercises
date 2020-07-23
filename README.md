@@ -5,70 +5,70 @@ Sklonuj to repozytorium na swój komputer. Dla kolejnych "dużych" sekcji (1,2,3
 
 ## 1. Podstawowa składnia HTML
 
-    a. Utwórz pusty dokument HTML. Pamiętaj o podstawowych tagach - `!DOCTYPE`, `html`, `head`, `body`
-    
-    b. Uzupełnij sekcję `head` poprawnymi metadanymi - ustaw kodowanie UTF-8 przy pomocy `charset`, szerokość ekranu i skalę przy pomocy `<meta name="viewport"...`
+a. Utwórz pusty dokument HTML. Pamiętaj o podstawowych tagach - `!DOCTYPE`, `html`, `head`, `body`
 
-    c. Nadaj tytuł dokumentu przy pomocy tagu `title`
+b. Uzupełnij sekcję `head` poprawnymi metadanymi - ustaw kodowanie UTF-8 przy pomocy `charset`, szerokość ekranu i skalę przy pomocy `<meta name="viewport"...`
 
-    d. W sekcji `body` dodaj nagłówek najwyższego rzędu zawierający tekst `Hello World 😮`
+c. Nadaj tytuł dokumentu przy pomocy tagu `title`
 
-    e. Poniżej dodaj podtytuł, zawierający dowolny tekst
+d. W sekcji `body` dodaj nagłówek najwyższego rzędu zawierający tekst `Hello World 😮`
 
-    f. Dodaj tagi semantyczne do Twojego dokumentu. Niech strona zawiera nagłówek (Hello world), zawartość główną (Twój tekst) oraz pustą stopkę
+e. Poniżej dodaj podtytuł, zawierający dowolny tekst
 
-    h. W sekcji głównej (main) dodaj dwa akapity z dowolną treścią [https://www.lipsum.com/](https://www.lipsum.com/)
+f. Dodaj tagi semantyczne do Twojego dokumentu. Niech strona zawiera nagłówek (Hello world), zawartość główną (Twój tekst) oraz pustą stopkę
 
-    g. Niech drugi z dodanych akapitów będzie wyróżniony *kursywą*
+h. W sekcji głównej (main) dodaj dwa akapity z dowolną treścią [https://www.lipsum.com/](https://www.lipsum.com/)
 
-    h. Poniżej akapitów dodaj kontener `div`. Kontener niech zawiera dwa hiperłącza (np. link 1 i link 2) do dwóch dowolnych stron internetowych
+g. Niech drugi z dodanych akapitów będzie wyróżniony *kursywą*
 
-    i. Poniej utwórz przycisk z dowolną etykietą
+h. Poniżej akapitów dodaj kontener `div`. Kontener niech zawiera dwa hiperłącza (np. link 1 i link 2) do dwóch dowolnych stron internetowych
 
-    j. Następnie utwórz pole do wprowadzania tekstu
+i. Poniej utwórz przycisk z dowolną etykietą
 
-    k. Poniżej tagu zamykającego kontener `div`, utwórz kolejny kolejny pusty kontener
+j. Następnie utwórz pole do wprowadzania tekstu
 
-    l. Wewnątrz nowego kontenera utwórz dwie listy z paroma elementami - jedną z wyznacznikami elementów w postaci kolejnych liczb, a drugą z punktorami
+k. Poniżej tagu zamykającego kontener `div`, utwórz kolejny kolejny pusty kontener
 
-    m. Spraw aby jeden z dodanych wcześniej linków powodował otwarcie nowej zakładki w przeglądarce
+l. Wewnątrz nowego kontenera utwórz dwie listy z paroma elementami - jedną z wyznacznikami elementów w postaci kolejnych liczb, a drugą z punktorami
 
-    n. Dodaj nową podstronę `about.html`. Niech na stronie głównej znajdzie się kolejny link (obok wcześniej dodanych )
+m. Spraw aby jeden z dodanych wcześniej linków powodował otwarcie nowej zakładki w przeglądarce
 
-    o. Niech utworzona strona zawiera nagłówek, obrazek, akapit opisujący zawartość obrazka oraz link kierujący do strony głównej
+n. Dodaj nową podstronę `about.html`. Niech na stronie głównej znajdzie się kolejny link (obok wcześniej dodanych )
+
+o. Niech utworzona strona zawiera nagłówek, obrazek, akapit opisujący zawartość obrazka oraz link kierujący do strony głównej
 
 ## 2. Podstawy CSS
 
-    a. Zmień wygląd (czcionka, rozmiar, kolor, margines) głównego nagłówka z wykorzystaniem tagu `style` w głównym pliku `index.html`
+a. Zmień wygląd (czcionka, rozmiar, kolor, margines) głównego nagłówka z wykorzystaniem tagu `style` w głównym pliku `index.html`
 
-    b. Dodaj w podobny sposób style, według własnego projektu do podtytułu
+b. Dodaj w podobny sposób style, według własnego projektu do podtytułu
 
-    c. Spraw, by akapity miały różne kolory, oraz dodaj ramkę do całej sekcji `main`. Niech ramka będzie zaokrąglona
+c. Spraw, by akapity miały różne kolory, oraz dodaj ramkę do całej sekcji `main`. Niech ramka będzie zaokrąglona
 
-    d. Kontener `div` w którym znajdują się hiperłącza, zmień na semantyczny tag `nav`. Spraw, by hiperłącza były umieszczone jedno nad drugim. Dodaj obramowania oraz tło do hiperłączy by przypominały przyciski. Niech hiperłącza zmieniają kolor po najechaniu na nie kursorem
+d. Kontener `div` w którym znajdują się hiperłącza, zmień na semantyczny tag `nav`. Spraw, by hiperłącza były umieszczone jedno nad drugim. Dodaj obramowania oraz tło do hiperłączy by przypominały przyciski. Niech hiperłącza zmieniają kolor po najechaniu na nie kursorem
 
-    e. Niech listy będą umieszczone obok siebie, na środku ekranu. Ostyluj w dowolny sposób elementy listy
+e. Niech listy będą umieszczone obok siebie, na środku ekranu. Ostyluj w dowolny sposób elementy listy
 
-    f. Ostyluj przycisk, tak by przypominał hiperłącza powyżej. Dodaj style do pola tekstowego według własnego uznania
+f. Ostyluj przycisk, tak by przypominał hiperłącza powyżej. Dodaj style do pola tekstowego według własnego uznania
 
-    g. Dodaj tag `style` do drugiego utworzonego wcześniej dokumentu. Spraw by obrazek wypełniał całą szerokość strony. Dodaj style do paragrafu oraz przycisku
+g. Dodaj tag `style` do drugiego utworzonego wcześniej dokumentu. Spraw by obrazek wypełniał całą szerokość strony. Dodaj style do paragrafu oraz przycisku
 
-    h. Do każdego elementu obu dokumentów dodaj atrybut `class`
+h. Do każdego elementu obu dokumentów dodaj atrybut `class`
 
-    i. Utwórz pliki `index.css` oraz `about.css`. Dołącz je do odpowiednich plików `html` przy pomocy tagu `link`. Usuń dodane style z plików `html` i przenieś je do plików `css`. Tym razem wykorzystaj dodane klasy jako selektory. Staraj się nie dublować kodu. Spróbuj wykorzystać metodologię BEM - w razie potrzeby zmień dodane wcześniej klasy.
+i. Utwórz pliki `index.css` oraz `about.css`. Dołącz je do odpowiednich plików `html` przy pomocy tagu `link`. Usuń dodane style z plików `html` i przenieś je do plików `css`. Tym razem wykorzystaj dodane klasy jako selektory. Staraj się nie dublować kodu. Spróbuj wykorzystać metodologię BEM - w razie potrzeby zmień dodane wcześniej klasy.
 
 ## 3. Manipulowanie drzewem DOM przy pomocy JS
 
-    a. Do pliku `index.html` podłącz pusty plik `index.js`. Wykorzystaj do tego celu `<script src="...`
-    
-    b. Spraw, aby kod zawarty w pliku `index.js` wyświetlił komunikat `Hello World` w konsoli JS, po załadowaniu się strony
-    
-    c. Zmień kod tak, aby komunikat pojawił się w przeglądarce w postaci okienka z powiadomieniem
-    
-    e. Usuń kod z powiadomieniem 'Hello World'. Spraw, aby kliknięcie przycisku znajdującego się u dołu strony `index.html` powodowało wyświetlenie dowolnego komunikatu.
-    
-    f. Teraz niech wyświetlany komunikat zawiera tekst, wpisany w polu tekstowym obok przycisku. Uwaga - jeśli pole jest puste, niech komunikat się nie pokazuje. 
-    
-    g. Dodaj drugie pole tekstowe. Niech wyświetlany komunikat zawiera tekst z obu pól, oddzielony przecinkiem. Jeśli jedno z pól jest pustych, nie pokazuj przecinka. Jeśli oba pola są puste, nie pokazuj komunikatu.
+a. Do pliku `index.html` podłącz pusty plik `index.js`. Wykorzystaj do tego celu `<script src="...`
+
+b. Spraw, aby kod zawarty w pliku `index.js` wyświetlił komunikat `Hello World` w konsoli JS, po załadowaniu się strony
+
+c. Zmień kod tak, aby komunikat pojawił się w przeglądarce w postaci okienka z powiadomieniem
+
+e. Usuń kod z powiadomieniem 'Hello World'. Spraw, aby kliknięcie przycisku znajdującego się u dołu strony `index.html` powodowało wyświetlenie dowolnego komunikatu.
+
+f. Teraz niech wyświetlany komunikat zawiera tekst, wpisany w polu tekstowym obok przycisku. Uwaga - jeśli pole jest puste, niech komunikat się nie pokazuje. 
+
+g. Dodaj drugie pole tekstowe. Niech wyświetlany komunikat zawiera tekst z obu pól, oddzielony przecinkiem. Jeśli jedno z pól jest pustych, nie pokazuj przecinka. Jeśli oba pola są puste, nie pokazuj komunikatu.
 
     
