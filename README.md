@@ -71,4 +71,4 @@ f. Teraz niech wyświetlany komunikat zawiera tekst, wpisany w polu tekstowym ob
 
 g. Dodaj drugie pole tekstowe. Niech wyświetlany komunikat zawiera tekst z obu pól, oddzielony przecinkiem. Jeśli jedno z pól jest pustych, nie pokazuj przecinka. Jeśli oba pola są puste, nie pokazuj komunikatu.
 
-    
+h. Ponad dwoma akapitami tekstu dodaj przycisk, który pozwoli na pokazywanie i chowanie akapitów (jeśli akapity nie są widoczne, kliknięcie przycisku pokaże je, a jeśli są widoczne - ukryje).
