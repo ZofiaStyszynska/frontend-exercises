@@ -3,7 +3,7 @@ Zadania do nauki podstaw HMTL, CSS i JS.
 
 Sklonuj to repozytorium na swój komputer. Dla kolejnych "dużych" sekcji (1,2,3...) proponuję utworzyć osobne gałęzie, a poszczególne zadania umieszczać w osobnych commitach o tytułach zawierających numer zadania (np. 1-f).
 
-1. Podstawowa składnia HTML
+## 1. Podstawowa składnia HTML
 
     a. Utwórz pusty dokument HTML. Pamiętaj o podstawowych tagach - `!DOCTYPE`, `html`, `head`, `body`
     
@@ -37,7 +37,7 @@ Sklonuj to repozytorium na swój komputer. Dla kolejnych "dużych" sekcji (1,2,3
 
     o. Niech utworzona strona zawiera nagłówek, obrazek, akapit opisujący zawartość obrazka oraz link kierujący do strony głównej
 
-2. Podstawy CSS
+## 2. Podstawy CSS
 
     a. Zmień wygląd (czcionka, rozmiar, kolor, margines) głównego nagłówka z wykorzystaniem tagu `style` w głównym pliku `index.html`
 
@@ -56,3 +56,19 @@ Sklonuj to repozytorium na swój komputer. Dla kolejnych "dużych" sekcji (1,2,3
     h. Do każdego elementu obu dokumentów dodaj atrybut `class`
 
     i. Utwórz pliki `index.css` oraz `about.css`. Dołącz je do odpowiednich plików `html` przy pomocy tagu `link`. Usuń dodane style z plików `html` i przenieś je do plików `css`. Tym razem wykorzystaj dodane klasy jako selektory. Staraj się nie dublować kodu. Spróbuj wykorzystać metodologię BEM - w razie potrzeby zmień dodane wcześniej klasy.
+
+## 3. Manipulowanie drzewem DOM przy pomocy JS
+
+    a. Do pliku `index.html` podłącz pusty plik `index.js`. Wykorzystaj do tego celu `<script src="...`
+    
+    b. Spraw, aby kod zawarty w pliku `index.js` wyświetlił komunikat `Hello World` w konsoli JS, po załadowaniu się strony
+    
+    c. Zmień kod tak, aby komunikat pojawił się w przeglądarce w postaci okienka z powiadomieniem
+    
+    e. Usuń kod z powiadomieniem 'Hello World'. Spraw, aby kliknięcie przycisku znajdującego się u dołu strony `index.html` powodowało wyświetlenie dowolnego komunikatu.
+    
+    f. Teraz niech wyświetlany komunikat zawiera tekst, wpisany w polu tekstowym obok przycisku. Uwaga - jeśli pole jest puste, niech komunikat się nie pokazuje. 
+    
+    g. Dodaj drugie pole tekstowe. Niech wyświetlany komunikat zawiera tekst z obu pól, oddzielony przecinkiem. Jeśli jedno z pól jest pustych, nie pokazuj przecinka. Jeśli oba pola są puste, nie pokazuj komunikatu.
+
+    
