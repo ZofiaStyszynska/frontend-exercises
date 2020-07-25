@@ -4,41 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About</title>
-    <style>
-        img {
-            width: 100%;
-        }
-
-        p {
-            border: 2px solid black;
-            padding: 10px;
-            border-radius: 10px;
-            box-shadow: 27px 10px 20px -4px rgba(0,0,0,0.75);
-        }
-
-        a {
-            border: 1px black solid;
-            width: 100px;
-            padding: 10px;
-            text-align: center;
-            text-decoration: none;
-            margin: 10px 0;
-            background-color: lightseagreen;
-            color: white;
-            transition: 0.3s;
-        }
-
-        a:hover,
-        a:focus {
-            background-color: black;
-        }
-    </style>
+    <link rel="stylesheet" href="about.css">
 </head>
 <body>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1200px-Node.js_logo.svg.png" alt="foo bar">
-    <p>
-        Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce blandit enim id dolor rhoncus, vel semper odio blandit. Maecenas nec erat at nisi ultricies sodales. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Quisque tempor justo nec leo dictum, sed vestibulum elit accumsan. Curabitur eu viverra turpis, in sagittis mi. Cras vel mauris eu sapien ornare accumsan mollis nec augue.
-    </p>
-    <a href="/index.html">Back</a>
+    <main class="main">
+        <img 
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1200px-Node.js_logo.svg.png" 
+            alt="foo bar"
+            class="main__picture"
+        >
+        <p class="main__text">
+            Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce blandit enim id dolor rhoncus, vel semper odio blandit. Maecenas nec erat at nisi ultricies sodales. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Quisque tempor justo nec leo dictum, sed vestibulum elit accumsan. Curabitur eu viverra turpis, in sagittis mi. Cras vel mauris eu sapien ornare accumsan mollis nec augue.
+        </p>
+        <p class="main__text main__text--alt">
+            Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce blandit enim id dolor rhoncus, vel semper odio blandit. Maecenas nec erat at nisi ultricies sodales. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Quisque tempor justo nec leo dictum, sed vestibulum elit accumsan. Curabitur eu viverra turpis, in sagittis mi. Cras vel mauris eu sapien ornare accumsan mollis nec augue.
+        </p>
+        <a class="link main__back-link" href="/index.html">Back</a>
+    </main>
 </body>
 </html>

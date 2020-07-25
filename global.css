@@ -1,0 +1,16 @@
+.link {
+    border: 1px black solid;
+    width: 100px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px 0;
+    background-color: lightseagreen;
+    color: white;
+    transition: 0.3s;
+}
+
+.link:hover,
+.link:focus {
+    background-color: black;
+}

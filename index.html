@@ -5,142 +5,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SDA</title>
     <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
-    
-    <style>
-
-        h1 {
-            color: blue;
-            font-size: 30px;
-            margin: 6px;
-            padding: 4px;
-        }
-
-        h2 {
-            color: red;
-            margin: 10px 30px;
-            text-align: center;
-            font-weight: bold;
-            font-family: 'Lora', serif;
-        }
-
-        p {
-            color: green;
-        }
-
-        p:last-of-type {
-            color: red;
-        }
-
-        main {
-            border: 2px solid blue;
-            border-radius: 20px;
-            padding: 10px 20px;
-        }
-
-        nav {
-            display: flex;
-            flex-direction: column;
-        }
-
-        a {
-            border: 1px black solid;
-            width: 100px;
-            padding: 10px;
-            text-align: center;
-            text-decoration: none;
-            margin: 10px 0;
-            background-color: lightseagreen;
-            color: white;
-            transition: 0.3s;
-        }
-
-        a:hover,
-        a:focus {
-            background-color: black;
-        }
-
-        nav + div {
-            display: flex;
-            justify-content: center;
-        }
-
-        ul {
-            list-style-type: square;
-            border: 1px solid green;
-        }
-
-        ol {
-            color: red;
-        }
-
-        button {
-            border: 1px black solid;
-            width: 100px;
-            padding: 10px;
-            text-align: center;
-            text-decoration: none;
-            margin: 10px 0;
-            background-color: lightseagreen;
-            color: white;
-            transition: 0.3s;
-        }
-
-        button:hover,
-        button:focus {
-            background-color: black;
-        }
-
-        input {
-            background-color: rebeccapurple;
-            color: white;
-            padding: 5px;
-            border-radius: 100vh;
-            outline: none;
-        }
-    </style>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <header>
-        <h1>Hello World 😮</h1>
+    <header class="header">
+        <h1 class="header__text">Hello World 😮</h1>
     </header>
-    <main>
-        <h2>Software Development Academy</h2>
-        <p>
+    <main class="main"> 
+        <h2 class="main__sub-heading">Software Development Academy</h2>
+        <p class="main__para">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. In cursus et sem ac condimentum. Integer arcu elit, congue nec magna non, sodales malesuada lectus. Donec eget orci gravida, cursus justo non, iaculis nunc. Nunc in ligula consectetur, tristique lacus sit amet, luctus massa. Praesent sed mauris odio. Nulla porta, ipsum et faucibus sagittis, dolor eros laoreet elit, eu ullamcorper eros lorem vel nibh. Integer vulputate venenatis erat ut iaculis. Sed in eros semper, rhoncus felis vel, viverra augue. Duis blandit, ipsum vitae consectetur feugiat, quam nisl fermentum augue, at tempus neque orci ultricies dui. Cras facilisis, mauris in pellentesque luctus, orci urna mattis justo, non elementum metus nibh sit amet ligula.
 
         </p>
-        <p>
+        <p class="main__para main__para--red">
             <i>
                 Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce blandit enim id dolor rhoncus, vel semper odio blandit. Maecenas nec erat at nisi ultricies sodales. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Quisque tempor justo nec leo dictum, sed vestibulum elit accumsan. Curabitur eu viverra turpis, in sagittis mi. Cras vel mauris eu sapien ornare accumsan mollis nec augue.
             </i>
         </p>
-        <nav>
+        <nav class="nav">
             <a 
+                class="link nav__item"
                 target="_blank" 
                 href="https://app.slack.com/client/T012675K6SW/C017WNW42R2"
                 rel="noreferrer noopener">
                 Slack
             </a>
-            <a href="https://github.com/jablpiotrek/sda-html-css-js">Github</a>
+            <a  class="link nav__item" href="https://github.com/jablpiotrek/sda-html-css-js">Github</a>
         </nav>
-        <div>
-            <ol>
-                <li>Element 1</li>
-                <li>Element 1</li>
-                <li>Element 1</li>
-                <li>Element 1</li> 
+        <div class="article">
+            <ol class="article__list">
+                <li class="article__element">Element 1</li>
+                <li class="article__element">Element 1</li>
+                <li class="article__element">Element 1</li>
+                <li class="article__element">Element 1</li> 
             </ol>
-            <ul>
-                <li>Element 1</li>
-                <li>Element 1</li>
-                <li>Element 1</li>
-                <li>Element 1</li>
+            <ul class="article__list article__list--alt">
+                <li class="article__element">Element 1</li>
+                <li class="article__element">Element 1</li>
+                <li class="article__element">Element 1</li>
+                <li class="article__element">Element 1</li>
             </ul>
         </div>
-        <a href="/about.html">About</a>
-        <div>
-            <button type="button">Button</button>
-            <input type="text">
+        <a class="link main__link" href="/about.html">About</a>
+        <div class="form">
+            <button class="link form__button" type="button">Button</button>
+            <input class="form__input" type="text">
         </div>
     </main>
     <footer></footer>

@@ -1,0 +1,16 @@
+@import "global.css";
+
+.main__picture {
+    width: 100%;
+}
+
+.main__text {
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 27px 10px 20px -4px rgba(0,0,0,0.75);
+}
+
+.main__text--alt {
+    border-color: red;
+}
