@@ -80,7 +80,11 @@ h. Ponad dwoma akapitami tekstu dodaj przycisk, który pozwoli na pokazywanie i 
 Stwórz nowy plik `todo.html` i odpowiednie pliki JavaScript i CSS. Wykorzystując nowe umiejętności stwórz aplikację, która wypełni poniższe user stories:
 
   a. Mogę umieścić treść notatki w polu tekstowym.
+  
   b. Klikając przycisk, mogę dodać notatkę. Notatki pojawiają się jedna pod drugą.
+  
   c. Nie mogę dodać pustej notatki.
+  
   d. Po udanym dodaniu notatki, pole tekstowe zostaje wyczyszczone.
+  
   e. Mogę usuwać pojedyncze notatki, lub wszystkie na raz. 
