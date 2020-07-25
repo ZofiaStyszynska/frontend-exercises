@@ -36,6 +36,28 @@
             border-radius: 20px;
             padding: 10px 20px;
         }
+
+        nav {
+            display: flex;
+            flex-direction: column;
+        }
+
+        a {
+            border: 1px black solid;
+            width: 100px;
+            padding: 10px;
+            text-align: center;
+            text-decoration: none;
+            margin: 10px 0;
+            background-color: lightseagreen;
+            color: white;
+            transition: 0.3s;
+        }
+
+        a:hover,
+        a:focus {
+            background-color: black;
+        }
     </style>
 </head>
 <body>
@@ -53,7 +75,7 @@
                 Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce blandit enim id dolor rhoncus, vel semper odio blandit. Maecenas nec erat at nisi ultricies sodales. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Quisque tempor justo nec leo dictum, sed vestibulum elit accumsan. Curabitur eu viverra turpis, in sagittis mi. Cras vel mauris eu sapien ornare accumsan mollis nec augue.
             </i>
         </p>
-        <div>
+        <nav>
             <a 
                 target="_blank" 
                 href="https://app.slack.com/client/T012675K6SW/C017WNW42R2"
@@ -61,7 +83,7 @@
                 Slack
             </a>
             <a href="https://github.com/jablpiotrek/sda-html-css-js">Github</a>
-        </div>
+        </nav>
         <div>
             <ol>
                 <li>Element 1</li>
