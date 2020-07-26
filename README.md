@@ -33,9 +33,11 @@ l. Wewnątrz nowego kontenera utwórz dwie listy z paroma elementami - jedną z 
 
 m. Spraw aby jeden z dodanych wcześniej linków powodował otwarcie nowej zakładki w przeglądarce
 
-n. Dodaj nową podstronę `about.html`. Niech na stronie głównej znajdzie się kolejny link (obok wcześniej dodanych )
+n. Poniżej kontenera z listami utwórz kontener zawierający przycisk i pole do wprowadzania tekstu.
 
-o. Niech utworzona strona zawiera nagłówek, obrazek, akapit opisujący zawartość obrazka oraz link kierujący do strony głównej
+o. Dodaj nową podstronę `about.html`. Niech na stronie głównej znajdzie się kolejny link (obok wcześniej dodanych )
+
+p. Niech utworzona strona zawiera nagłówek, obrazek, akapit opisujący zawartość obrazka oraz link kierujący do strony głównej
 
 ## 2. Podstawy CSS
 
@@ -72,3 +74,17 @@ f. Teraz niech wyświetlany komunikat zawiera tekst, wpisany w polu tekstowym ob
 g. Dodaj drugie pole tekstowe. Niech wyświetlany komunikat zawiera tekst z obu pól, oddzielony przecinkiem. Jeśli jedno z pól jest pustych, nie pokazuj przecinka. Jeśli oba pola są puste, nie pokazuj komunikatu.
 
 h. Ponad dwoma akapitami tekstu dodaj przycisk, który pozwoli na pokazywanie i chowanie akapitów (jeśli akapity nie są widoczne, kliknięcie przycisku pokaże je, a jeśli są widoczne - ukryje).
+
+## 4. Projekt podsumowujacy - aplikacja to-do
+
+Stwórz nowy plik `todo.html` i odpowiednie pliki JavaScript i CSS. Wykorzystując nowe umiejętności stwórz aplikację, która wypełni poniższe user stories:
+
+  a. Mogę umieścić treść notatki w polu tekstowym.
+  
+  b. Klikając przycisk, mogę dodać notatkę. Notatki pojawiają się jedna pod drugą.
+  
+  c. Nie mogę dodać pustej notatki.
+  
+  d. Po udanym dodaniu notatki, pole tekstowe zostaje wyczyszczone.
+  
+  e. Mogę usuwać pojedyncze notatki, lub wszystkie na raz. 
