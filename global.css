@@ -14,3 +14,8 @@
 .link:focus {
     background-color: black;
 }
+
+.link:disabled {
+    background-color: grey;
+    cursor: not-allowed;
+}
