@@ -4,7 +4,7 @@ function showAlert(text) {
 
 // ######################
 
-window.addEventListener('load', (event) => {
+window.addEventListener('load', () => {
     const button = document.getElementById('info-button')
     
     if (button) {
