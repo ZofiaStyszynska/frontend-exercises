@@ -20,6 +20,8 @@ window.addEventListener('load', () => {
     const button = document.getElementById('info-button');
     const input1 = document.getElementById('info-input-1');
     const input2 = document.getElementById('info-input-2');
+    const toggleButton = document.getElementById('toggle-button');
+    const paragraphs = document.getElementById('paragraphs');
 
     button.addEventListener('click', () => {
         const text1 = input1.value;
@@ -38,5 +40,9 @@ window.addEventListener('load', () => {
 
     input2.addEventListener('keyup', (e) => {
         button.disabled =isButtonDisabled(e, input1);
+    })
+
+    toggleButton.addEventListener('click', () => {
+        paragraphs.style.display = paragraphs.style.display === 'none' ? 'block' : 'none';
     })
 });
