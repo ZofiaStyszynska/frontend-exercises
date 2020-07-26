@@ -8,6 +8,10 @@ function clearInput(input) {
     input.value = '';
 }
 
+function clearNotes(container) {
+    container.innerHTML = '';
+}
+
 window.addEventListener('load', () => {
     const addNoteButton = document.getElementById('add-note');
     const clearNotesButton = document.getElementById('clear-notes');
@@ -21,5 +25,9 @@ window.addEventListener('load', () => {
             addNote(text, notesContainer);
             clearInput(noteInput);
         }
+    });
+
+    clearNotesButton.addEventListener('click', () => {
+        clearNotes(notesContainer);
     })
 });
