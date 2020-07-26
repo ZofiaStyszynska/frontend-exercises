@@ -1,7 +1,7 @@
 function addNote(text, container, index) {
     const note = document.createElement('div');
     note.id = `note-${index}`
-    note.innerHTML = `<p>${text}</p> <button type="button">Delete</button>`;
+    note.innerHTML = `<p>${text}</p> <button name="${index}" id="delete-note-${index}" type="button">Delete</button>`;
     container.appendChild(note);
 }
 
@@ -31,6 +31,10 @@ window.addEventListener('load', () => {
         if (text) {
             addNote(text, notesContainer, index);
             clearInput(noteInput);
+            const deleteNoteButton = document.getElementById(`delete-note-${index}`)
+            deleteNoteButton.addEventListener('click', () => {
+                deleteNote(deleteNoteButton.name);
+            })
             index++;
         }
     });
