@@ -1,5 +1,11 @@
-function addNote(text) {
+function addNote(text, container) {
+    const note = document.createElement('div');
+    note.innerHTML = `<p>${text}</p> <button type="button">Delete</button>`;
+    container.appendChild(note);
+}
 
+function clearInput(input) {
+    input.value = '';
 }
 
 window.addEventListener('load', () => {
@@ -12,7 +18,8 @@ window.addEventListener('load', () => {
         const text = noteInput.value;
 
         if (text) {
-            addNote(text);
+            addNote(text, notesContainer);
+            clearInput(noteInput);
         }
     })
 });
