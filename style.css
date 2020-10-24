@@ -1,19 +1,42 @@
-.heading {
+/* clearfix */
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    margin: 10px 0;
+    padding: 40px;
+}
+
+.main__header {
+    text-transform: uppercase;
+    color: gray;
+    transition: 1s;
+}
+
+.main__header:hover {
     color: red;
-    font-size: 30px;
-    padding: 20px;
-} 
-
-.special {
-    color: blue;
 }
 
-/* BEM */
-
-/* Block element modifier */
-
-.frontpage__heading--bold {
-    font-weight: bold;
+.main__container {
+    display: flex;
+    justify-content: space-between;
 }
 
-/* zxczxczxczxc */
+.main__container--buttons {
+    flex-direction: column;
+}
+
+.main__paragraph {
+    width: 40%;
+    text-align: justify;
+    border: solid 2px black;
+    padding: 10px;
+}
+
+.main__btn {
+    align-items: flex-end;
+    width: 200px;
+}
