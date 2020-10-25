@@ -1,14 +1,14 @@
 window.addEventListener('load', () => {
-  const showButton = document.querySelector('#show-article');
-  const hideButton = document.querySelector('#hide-article');
-  
-  showButton.addEventListener('click', () => {
-    toggleMainSection(true);
-  });
+  const toggleButton = document.getElementById('toggle-article');
 
-  hideButton.addEventListener('click', () => {
-    toggleMainSection(false);
-  });
+  toggleButton.addEventListener('click', () => {
+    const mainSection = document.querySelector('.article__main');
+    const isArticleVisible = mainSection.style.display === 'block' ? true : false;
+
+    toggleButton.innerHTML = `${!isArticleVisible ? 'Hide' : 'Show'} article`;
+
+    toggleMainSection(!isArticleVisible);
+  })
 });
 
 function toggleMainSection(show) {
